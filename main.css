@@ -1,0 +1,76 @@
+/*
+=============================
+Typography
+=============================
+*/
+.body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+/*
+=============================
+Header
+=============================
+*/
+
+.header {
+    color: rgb(129, 129, 129);
+    width: 100%;
+    background-color: #000924;
+    height: 150px;
+    vertical-align: center;
+    padding: 20px;
+}
+.h1 {
+    float: left;
+}
+/*
+=============================
+Nav Bar
+=============================
+*/
+
+.nav-bar {
+    font-size: small;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+.nav-bar a:hover {
+    color: rgb(0, 255, 234);
+    text-decoration: none;
+}
+/*
+=============================
+Bio
+=============================
+*/
+
+.bio {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.pixabay.com/photo/2014/05/03/01/05/bars-336714_960_720.jpg");
+    background-position: center, fixed;
+}
+.bio h2 p {
+    padding: 100px, 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: center;
+}
+.bio .row {
+    color: rgba(255,255,255,1);
+    padding: 100px, 40px;
+    margin: 100px, 40px;
+    vertical-align: center;
+    background-color: rgba(0, 0, 0, .75);
+}
+.row .a {
+    text-decoration: none;
+    color: #000;
+}.spacer {
+    height: 100px;
+}
